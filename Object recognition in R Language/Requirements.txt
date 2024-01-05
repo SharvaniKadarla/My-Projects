@@ -1,0 +1,5 @@
+Go to Google Colab and change the runtime environment to R using the below link  https://colab.research.google.com/notebook#create=true&language=r .
+Then go to Runtime -> Change Runtime Type -> R and Set Hardware Accelerator to None
+Uncheck the checkbox "Omit code cell output wen saving this notebook"
+Click Save
+Now, go to Settings icon near your profile and then click on GitHub. Now Click the tick on the checkbox of “Access private repositories and organizations” . Click Save.
