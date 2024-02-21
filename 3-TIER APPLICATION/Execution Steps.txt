@@ -1,0 +1,11 @@
+1. OPEN MySQL Command Client and login by entering the Password: 123456789 and by default the username of the MySQL is root and the localhost can be the same as localhost or your system’s IP Address. 
+2. Create the database in MySQL Command Client by the below line: 
+create database dis; 
+3. Create the table with name Person in the above database: 
+use dis; 
+create table Person(id INT AUTO_INCREMENT,name VARCHAR(255) NOT NULL,phone CHAR(15) NOT NULL,PRIMARY KEY(id)); 
+4. Now, open the Command Prompt and download the following commands through pip: 
+$> pip install tk 
+$> pip install mysql-connector-python 
+5. Now open the IDLE Python Editor and create the new python file, write the code in it and save it as “application.py”. 
+6. Now after saving the file, run the “application.py” file using Run Command F5 in the IDLE Python Editor.
